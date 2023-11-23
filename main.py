@@ -242,14 +242,90 @@
 # İsimler = ' Ecem, Işıl, İkra, Defne, İmge, Nisa'
 # İsimdizisi = İsimler.split (',')
 # index = random.randint(0, len(İsimdizisi) - 1)
-# print(f'Hesabı {İsimdizisi[index]} ödeyecek!')
-Row1 = ['⬜️, ⬜️, ⬜️']
-Row2 = ['⬜️, ⬜️, ⬜️']
-Row3 = ['⬜️, ⬜️, ⬜️']
-Harita = [Row1, Row2, Row3]
-print(f'{Row1}\n{Row2}\n {Row3}\n')
-Pozisyon = input('Hazineyi nereye saklamak istersiniz?')
-Yatay = int(Pozisyon[0]) -1
-Dikey = int(Pozisyon[1]) -1
-Harita[Dikey] [Yatay] = 'X'
-print (f'{Row1}\n{Row2}\n{Row3}\n')
+# # print(f'Hesabı {İsimdizisi[index]} ödeyecek!')
+# # Row1 = ['⬜️', '⬜️', '⬜️']
+# # Row2 = ['⬜️', '⬜️', '⬜️']
+# # Row3 = ['⬜️', '⬜️', '⬜️']
+
+# Taş = '''
+#     _______
+# ---'   ____)
+#       (_____)
+#       (_____)
+#       (____)# Harita = [Row1, Row2, Row3]
+# # print(f'{Row1}\n{Row2}\n{Row3}\n')
+# # Pozisyon = input('Hazineyi nereye saklamak istersiniz?')
+# # Yatay = int(Pozisyon[0]) -1
+# # Dikey = int(Pozisyon[1]) -1
+# # Harita[Dikey] [Yatay] = 'X'
+# # print (f'{Row1}\n{Row2}\n{Row3}\n')
+# import random
+# ---.__(___)
+# '''
+
+# Kağıt = '''
+#     _______
+# ---'   ____)____
+#           ______)
+#           _______)
+#          _______)
+# ---.__________)
+# '''
+
+# Makas = '''
+#     _______
+# ---'   ____)____
+#           ______)
+#        __________)
+#       (____)
+# ---.__(___)
+# '''
+# while True:
+#     KullanıcıSeçimi = int(input('Taş(0); Kağıt(1); Makas(2) seç.'))
+#     BilgisayarSeçimi = random.randint(0,2)
+#     print('Senin seçimin')
+#     if KullanıcıSeçimi == 0:
+#         print (Taş)
+#     elif KullanıcıSeçimi == 1:
+#         print(Kağıt)
+#     elif KullanıcıSeçimi == 2:
+#         print(Makas)
+#     if KullanıcıSeçimi >= 3 or KullanıcıSeçimi < 0:
+#         print('0,1 veya 2 giriniz!')
+#     elif KullanıcıSeçimi == 0 and BilgisayarSeçimi == 2:
+#         print('Kazandınızz!')
+#     elif BilgisayarSeçimi == 2 and KullanıcıSeçimi == 0:
+#         Print('Kaybettiniz!')
+#     elif KullanıcıSeçimi > BilgisayarSeçimi:
+#         print('Kazandınızz')
+#     elif BilgisayarSeçimi> KullanıcıSeçimi:
+#         print('Kaybettiniz!')
+#     else:
+# #         print('Berabere')
+# Meyveler = ['Elma', 'Armut', 'Şeftali']
+# for Meyve in Meyveler:
+#     print('Meyve')
+# Şehirler  = [
+# "Adana","Adıyaman","Afyonkarahisar","Ağrı","Aksaray","Amasya","Ankara","Antalya","Ardahan","Artvin","Aydın","Balıkesir","Bartın","Batman",
+# "Bayburt","Bilecik","Bingöl","Bitlis","Bolu","Burdur","Bursa","Çanakkale","Çankırı","Çorum","Denizli","Diyarbakır","Düzce","Edirne","Elazığ",
+# "Erzincan","Erzurum","Eskişehir","Gaziantep","Giresun","Gümüşhane","Hakkari","Hatay","Iğdır","Isparta","İstanbul","İzmir","Kahramanmaraş","Karabük",
+# "Karaman","Kars","Kastamonu","Kayseri","Kilis","Kırıkkale","Kırklareli","Kırşehir","Kocaeli","Konya","Kütahya",
+# "Malatya","Manisa","Mardin","Mersin","Muğla","Muş","Nevşehir","Niğde","Ordu","Osmaniye","Rize","Sakarya","Samsun","Şanlıurfa",
+# "Siirt","Sinop","Şırnak","Sivas","Tekirdağ","Tokat","Trabzon","Tunceli","Uşak","Van","Yalova","Yozgat","Zonguldak"
+# ]
+# for Şehir in Şehirler:
+#     print(Şehir)
+# for Şehir in Şehirler:
+# #     if Şehir.lower().startwith('a'):
+# #          print(Şehir)
+# for Sayı in range(0,100):
+#     if (Sayı%3) == 0 and (Sayı%5) == 0:
+# #         print(Sayı)
+# GirilenSayı = int(input('Bir sayı girin'))
+# Çarpım = 1 
+# for Sayı in range(1, GirilenSayı+1):
+#     Çarpım *= Sayı
+# print(f'Girdiğiniz sayının faktöriyeli : { Çarpım}')
+# for Sayı in range(0,10):
+#     print(f'7* {Sayı} = {7* Sayı}')
+while True:
