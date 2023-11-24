@@ -3,7 +3,7 @@
 # # print('Hello'+ ' ' +'Yağmur')
 # # print( input('Adın Nedir?'))
 # # print('Merhaba' + ' ' + input('Adın Ne?'))
-# # # print(len(input('Hello Whats Your Name?'
+# # print(len(input('Hello Whats Your Name?'
 # # Name = ('Yağmur')
 # # print(Name)
 # # print('Hello World')
