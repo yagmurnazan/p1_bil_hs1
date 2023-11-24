@@ -1,14 +1,14 @@
 # # print('Hello World')
-# #print('Merhaba Dünya\nMerhaba Dünya\nHello World\n')
+# # print('Merhaba Dünya\nMerhaba Dünya\nHello World\n')
 # # print('Hello'+ ' ' +'Yağmur')
 # # print( input('Adın Nedir?'))
 # # print('Merhaba' + ' ' + input('Adın Ne?'))
 # # # print(len(input('Hello Whats Your Name?'
 # # Name = ('Yağmur')
 # # print(Name)
-# print('Hello World')
+# # print('Hello World')
 # # Name = ('Nazan')
-# # # print(Name)
+# # print(Name)
 # # isim = input('Hello Whats Your Name?')
 # # uzunluk = len(isim)
 # # print(uzunluk)
@@ -328,4 +328,57 @@
 # print(f'Girdiğiniz sayının faktöriyeli : { Çarpım}')
 # for Sayı in range(0,10):
 #     print(f'7* {Sayı} = {7* Sayı}')
-while True:
+# while True:
+#     print('\n')
+#     print('Merhaba')
+# Boylar = input('Öğrenci boylarını cm cinsinden aralarında birer boşluk bırakarak giriniz!')
+# BoyDizisi = Boylar.split(' ')
+# Toplam = 0
+# for Boy in BoyDizisi:
+#     Toplam += int(Boy)
+# print(f'Girilen boyların ortalaması: {Toplam / len(BoyDizisi)}')
+# Puanlar = input("Öğrenci puanlarını aralarında birer boşluk olacak şekilde giriniz lütfen. ")
+# EnYüksekPuan = int(Puanlar[0])
+# for Puan in Puanlar.split(" "):
+#     if EnYüksekPuan < int(Puan):
+#        EnYüksekPuan = int(Puan)
+# print(f"En Yüksek Puan: {EnYüksekPuan}")
+# print(f"En Küçük Puan: {min(Puanlar.split(' '))}")
+# Toplam = 0
+# for Sayı in range(2,101):
+#     Toplam += Sayı
+# print(Toplam)
+# Toplam2 = 0
+# for Sayı in range(2,101):
+#     if Sayı %2 == 0:
+#         Toplam2 += Sayı
+# print(Toplam2)
+# for Sayı in range(0,100):
+#     if Sayı %3 == 0 and Sayı %5 == 0:
+#         print('GüçGeç')
+#     elif Sayı %3 == 0:
+#         print('Güç')
+#     elif Sayı %5 == 0:
+#         print('Geç')
+#     else:
+#         print(Sayı)
+# import random
+# Harfler = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+# Rakamlar = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+# Semboller = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
+# print('Şifre oluşturucuya hoşgeldinizz')
+# HarfSayısı = int(input('Şifrenizde kaç harf olsun istersiniz?'))
+# SembolSayısı = int(input(f'Şifrenizde kaç sembol olsun istersiniz?'))
+# RakamSayısı = int(input(f'Şifrenizde kaç rakam olsun istersiniz?'))
+# Şifre = []
+# for char in range(1, HarfSayısı + 1):
+#     Şifre.append(random.choice(Harfler))
+# for char in range(1, SembolSayısı +1):
+#     Şifre += random.choice(Semboller)
+# for char in range (1, RakamSayısı +1):
+#     Şifre += random.choice(Rakamlar)
+# random.shuffle(Şifre)
+# ŞifreYeni= ''
+# for char in Şifre:
+#     ŞifreYeni += char
+# print(f'Şifreniz: {ŞifreYeni}')
