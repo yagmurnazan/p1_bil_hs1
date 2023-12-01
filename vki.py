@@ -8,7 +8,7 @@ if Vki < 18.5 :
 
 elif Vki > 24.5:
     Ulaşılmasıgerekenkilo2 = 24.9 * Boy * Boy
-    Verilmesigereknkilo = Kilo - Ulaşılmasıgerekenkilo2 
-    print(f'Vermeniz gereken kilo miktarı {round(Verilmesigereknkilo,2)}')
+    Verilmesigerekenkilo = Kilo - Ulaşılmasıgerekenkilo2 
+    print(f'Vermeniz gereken kilo miktarı {round(Verilmesigerekenkilo,2)}')
 else:
     print('Vücut kitleniz idealdir, kilo alıp vermenize gerek yoktur.')
