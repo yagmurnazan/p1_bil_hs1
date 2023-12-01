@@ -1,0 +1,8 @@
+Yıl = int(input('Hesaplamak istediğiniz yılı giriniz. '))
+if Yıl %4 == 0 :
+    if Yıl % 100 == 0 :
+        print('Girdiğiniz yıl, artık yıldır.')
+    else :
+        print('Girdiğiniz yıl, artık yıl değildir.')
+else :
+    print('Girdiğiniz yıl, artık yıl değildir.')

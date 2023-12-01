@@ -1,31 +1,31 @@
-# # print('Hello World')
-# # print('Merhaba Dünya\nMerhaba Dünya\nHello World\n')
-# # print('Hello'+ ' ' +'Yağmur')
-# # print( input('Adın Nedir?'))
-# # print('Merhaba' + ' ' + input('Adın Ne?'))
-# # print(len(input('Hello Whats Your Name?'
-# # Name = ('Yağmur')
-# # print(Name)
-# # print('Hello World')
-# # Name = ('Nazan')
-# # print(Name)
-# # isim = input('Hello Whats Your Name?')
-# # uzunluk = len(isim)
-# # print(uzunluk)
-# # print(input('Hello Whats Your Name?'))
-# # ensongidilenşehir = input('en son gittiğiniz şehir nedir?')
-# # ensevdiğinhayvan = input('en sevdiğiniz hayvanın adı nedir')
-# # # print('Grup Adı: '+' '+ ensongidilenşehir + ensevdiğinhayvan)
+# print('Hello World')
+# print('Merhaba Dünya\nMerhaba Dünya\nHello World\n')
+# print('Hello'+ ' ' +'Yağmur')
+# print( input('Adın Nedir?'))
+# print('Merhaba' + ' ' + input('Adın Ne?'))
+# print(len(input('Hello Whats Your Name?'
+# Name = ('Yağmur')
+# print(Name)
+# print('Hello World')
+# Name = ('Nazan')
+# print(Name)
+# isim = input('Hello Whats Your Name?')
+# uzunluk = len(isim)
+# print(uzunluk)
+# print(input('Hello Whats Your Name?'))
+# ensongidilenşehir = input('en son gittiğiniz şehir nedir?')
+# ensevdiğinhayvan = input('en sevdiğiniz hayvanın adı nedir')
+# print('Grup Adı: '+' '+ ensongidilenşehir + ensevdiğinhayvan)
 # sayı1 = input('1inci sayıyı giriniz:')
 # sayı2 = input('2nci sayıyı giriniz:')
 # toplam = int(sayı1) + int(sayı2)
-# # print('Toplam =' + str(toplam))
+# print('Toplam =' + str(toplam))
 # kısakenar = int(input('kısa kenarı giriniz:'))
 # uzunkenar = int(input('uzun kenarı giriniz:'))
-# # Çevre = (kısakenar + uzunkenar) *2
-# # Alan = kısakenar * uzunkenar
-# # print('Dikdörtgenin çevresi:' + str(Çevre))
-# # print('Dikdörtgenin alanı:' + str(Alan))
+# Çevre = (kısakenar + uzunkenar) *2
+# Alan = kısakenar * uzunkenar
+# print('Dikdörtgenin çevresi:' + str(Çevre))
+# print('Dikdörtgenin alanı:' + str(Alan))
 # Yarıçap = int(input('Yarıçapı Giriniz'))
 # Yükseklik = int(input('Yüksekliği Giriniz'))
 # Pİsayısı = 3.14
@@ -41,15 +41,15 @@
 # Çevre = 2* Pİsayısı * Yarıçap
 # Hacim = Pİsayısı * Yarıçap * Yarıçap
 # print('Dairenin Hacmi:' + str(Hacim))
-# # print('Dairenin Çevresi: ' + str (Çevre))
-# # print('Çek Cumhuriyeti'[4])
+# print('Dairenin Çevresi: ' + str (Çevre))
+# print('Çek Cumhuriyeti'[4])
 # İsimUzunluk = len(input('Merhaba, Adın Ne?'))
-# # isimUzunluk_Str = str(İsimUzunluk)
-# # print('İsminde ' + isimUzunluk_Str + ' karakter var.')
+# isimUzunluk_Str = str(İsimUzunluk)
+# print('İsminde ' + isimUzunluk_Str + ' karakter var.')
 # ikihanelisayı = str(input('İki haneli bir sayı giriniz '))
 # toplam = int(ikihanelisayı[0]) + (int(ikihanelisayı[0]))
-# # print('Toplam:' + str(toplam))
-# # print(4 * 8 / 2)
+# print('Toplam:' + str(toplam))
+# print(4 * 8 / 2)
 # Boy = float(input('Boyunuzu giriniz: '))
 # Kilo = float(input('Kilonuzu giriniz: '))
 # vki = int(Kilo/Boy**2)
@@ -57,7 +57,7 @@
 # print(f"Vücut Kilo Endeksiniz: {vki} ")
 # print(8/3)
 # print(type(8/3))
-# # print(type)(8//3)
+# print(type)(8//3)
 # Yaş = input('Kaç yaşındasın?')
 # Yaş_int = int(Yaş)
 # Ay = Yaş_int * 12
@@ -222,43 +222,43 @@
 # "Karaman","Kars","Kastamonu","Kayseri","Kilis","Kırıkkale","Kırklareli","Kırşehir","Kocaeli","Konya","Kütahya",
 # "Malatya","Manisa","Mardin","Mersin","Muğla","Muş","Nevşehir","Niğde","Ordu","Osmaniye","Rize","Sakarya","Samsun","Şanlıurfa",
 # "Siirt","Sinop","Şırnak","Sivas","Tekirdağ","Tokat","Trabzon","Tunceli","Uşak","Van","Yalova","Yozgat","Zonguldak"]
-# # print(Şehirler[0])
-# # print(Şehirler.index("Adana"))
-# # print(Şehirler[12])
-# # print(Şehirler[80])
-# # print(Şehirler[-1])
-# # print(Şehirler[-2])
-# # Şehirler[33] = "İçel"
-# # print(Şehirler[33])
-
-# # Şehirler.append("Tarsus")
-# # print(Şehirler[81])
-# # print(len(Şehirler))
-# # Şehirler.remove("Tarsus")
-# # print(len(Şehirler))
+# print(Şehirler[0])
+# print(Şehirler.index("Adana"))
+# print(Şehirler[12])
+# print(Şehirler[80])
+# print(Şehirler[-1])
+# print(Şehirler[-2])
+# Şehirler[33] = "İçel"
+# print(Şehirler[33])
+# Şehirler.append("Tarsus")
+# print(Şehirler[81])
+# print(len(Şehirler))
+# Şehirler.remove("Tarsus")
+# print(len(Şehirler))
 # Şehirler.pop()
 # print(len(Şehirer)) 
 # import random
 # İsimler = ' Ecem, Işıl, İkra, Defne, İmge, Nisa'
 # İsimdizisi = İsimler.split (',')
 # index = random.randint(0, len(İsimdizisi) - 1)
-# # print(f'Hesabı {İsimdizisi[index]} ödeyecek!')
-# # Row1 = ['⬜️', '⬜️', '⬜️']
-# # Row2 = ['⬜️', '⬜️', '⬜️']
-# # Row3 = ['⬜️', '⬜️', '⬜️']
+# print(f'Hesabı {İsimdizisi[index]} ödeyecek!')
+# Row1 = ['⬜️', '⬜️', '⬜️']
+# Row2 = ['⬜️', '⬜️', '⬜️']
+# Row3 = ['⬜️', '⬜️', '⬜️']
 
 # Taş = '''
 #     _______
 # ---'   ____)
 #       (_____)
 #       (_____)
-#       (____)# Harita = [Row1, Row2, Row3]
-# # print(f'{Row1}\n{Row2}\n{Row3}\n')
-# # Pozisyon = input('Hazineyi nereye saklamak istersiniz?')
-# # Yatay = int(Pozisyon[0]) -1
-# # Dikey = int(Pozisyon[1]) -1
-# # Harita[Dikey] [Yatay] = 'X'
-# # print (f'{Row1}\n{Row2}\n{Row3}\n')
+#       (____)
+# Harita = [Row1, Row2, Row3]
+# print(f'{Row1}\n{Row2}\n{Row3}\n')
+# Pozisyon = input('Hazineyi nereye saklamak istersiniz?')
+# Yatay = int(Pozisyon[0]) -1
+# Dikey = int(Pozisyon[1]) -1
+# Harita[Dikey] [Yatay] = 'X'
+# print (f'{Row1}\n{Row2}\n{Row3}\n')
 # import random
 # ---.__(___)
 # '''
@@ -301,7 +301,7 @@
 #     elif BilgisayarSeçimi> KullanıcıSeçimi:
 #         print('Kaybettiniz!')
 #     else:
-# #         print('Berabere')
+#         print('Berabere')
 # Meyveler = ['Elma', 'Armut', 'Şeftali']
 # for Meyve in Meyveler:
 #     print('Meyve')
@@ -316,11 +316,11 @@
 # for Şehir in Şehirler:
 #     print(Şehir)
 # for Şehir in Şehirler:
-# #     if Şehir.lower().startwith('a'):
-# #          print(Şehir)
+#     if Şehir.lower().startwith('a'):
+#          print(Şehir)
 # for Sayı in range(0,100):
 #     if (Sayı%3) == 0 and (Sayı%5) == 0:
-# #         print(Sayı)
+#         print(Sayı)
 # GirilenSayı = int(input('Bir sayı girin'))
 # Çarpım = 1 
 # for Sayı in range(1, GirilenSayı+1):
