@@ -9,4 +9,4 @@ for Tahmin in range(0-100) :
     if Cevap == b :
         Tahmin3 = random.randint(0-Tahmin)
     else:
-        print('Aklınızdaki sayıyı buldumm;)')
+        print('Aklınızdaki sayıyı buldumm;')
