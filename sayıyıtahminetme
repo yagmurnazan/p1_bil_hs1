@@ -1,12 +1,14 @@
 # kişi akıldan 0-100 arası sayı tutacak program tahmin edecek tahmin sayıdan büyükse b küçükse k doğruysa e yazacak program bulana kadar devam edecek.
 import random
-Tahmin = random.randint(0-100)
-print(f'Seçtiğim sayı : {Tahmin}')
-Cevap = input('Lütfen k , b , e harflerinden birini giriniz.')
-for Tahmin in range(0-100) :
-    if Cevap == k :
-        Tahmin2 = random.randint(Tahmin-100)
-    if Cevap == b :
-        Tahmin3 = random.randint(0-Tahmin)
-    else:
-        print('Aklınızdaki sayıyı buldumm;')
+Cevap = ''
+EK = 0
+EB = 100
+while Cevap != 'e':
+    Tahmin = random.randint(EK,EB)
+    Cevap = input(f'Aklınızdan tuttuğunuz sayı {Tahmin} mi? ')
+    if Cevap == 'k' :
+        EK = Tahmin+1
+    elif Cevap == 'b' :
+        EB = Tahmin-1
+    else :
+        print('Aklınızdaki sayıyı buldumm ;)')
